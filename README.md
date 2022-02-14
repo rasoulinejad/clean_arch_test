@@ -6,6 +6,7 @@ and if you are not able to work on FrontEnd project, you can add a Swagger UI
 in a new Front project.
 
 Create a simple CRUD application with ASP NET Core that implements the below model:
+
 ```
 Customer {
 	Firstname
@@ -16,14 +17,17 @@ Customer {
 	BankAccountNumber
 }
 ```
-## Practices and patterns (Must):
+
+## Practices and patterns (Must)
 
 - [TDD](https://en.wikipedia.org/wiki/Test-driven_development)
 - [DDD](https://en.wikipedia.org/wiki/Domain-driven_design)
 - [BDD](https://en.wikipedia.org/wiki/Behavior-driven_development)
-- [Clean architecture](https://github.com/jasontaylordev/CleanArchitecture)
-- [CQRS](https://en.wikipedia.org/wiki/Command%E2%80%93query_separation#Command_query_responsibility_separation) pattern ([Event sourcing](https://en.wikipedia.org/wiki/Domain-driven_design#Event_sourcing)).
 - Clean git commits that shows your work progress.
+
+## Clean Architecture (Must)
+
+<img src="./clean_architecture.png" max-width="250px" max-height="250px" />
 
 ### Validations (Must)
 
