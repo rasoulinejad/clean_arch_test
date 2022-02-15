@@ -43,7 +43,7 @@ Customer {
 
 - Use database of choise to store data.
 
-- Store the phone number in a database with minimized space storage (choose `varchar`/`string`, or `ulong` whichever store less space).
+- Store the phone number in a database with minimized space storage (choose `varchar`/`string`, or `Uint64` whichever store less space).
 
 ### Submit your result
 
