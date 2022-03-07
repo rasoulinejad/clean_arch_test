@@ -19,11 +19,15 @@ class CustomerTable extends Table {
 
   @override
   List<String> get customConstraints => ['UNIQUE (first_name, last_name,date_of_birth)'];
+
+  @override
+  Set<Column> get primaryKey => {email};
 }
 
 @UseMoor(tables: [CustomerTable])
 class AppDatabase extends _$AppDatabase {
-  AppDatabase() : super(FlutterQueryExecutor.inDatabaseFolder(path: 'app2.db'));
+  AppDatabase() : super(FlutterQueryExecutor.inDatabaseFolder(path: 'app.db'));
+
   //AppDatabase(QueryExecutor e) : super(e);
 
   @override

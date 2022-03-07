@@ -330,7 +330,7 @@ class $CustomerTableTable extends CustomerTable
   }
 
   @override
-  Set<GeneratedColumn> get $primaryKey => <GeneratedColumn>{};
+  Set<GeneratedColumn> get $primaryKey => {email};
   @override
   CustomerTableData map(Map<String, dynamic> data, {String? tablePrefix}) {
     return CustomerTableData.fromData(data, attachedDatabase,
